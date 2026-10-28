@@ -1,0 +1,653 @@
+{
+ "version": 1,
+ "at": "2026-10-27T16:27:49.900Z",
+ "seed": 1005061583,
+ "redraws": 0,
+ "input": {
+  "brief": "Online shop of ready-made wedding first-dance video lessons by a choreographer; couples learn at home; inspiration plus confidence it is doable; Gen Z audience; mobile-first",
+  "sector": "event",
+  "tone": "warm",
+  "have": [
+   "video",
+   "photography"
+  ],
+  "keep": [
+   "palette"
+  ],
+  "avoid": [],
+  "sections": [
+   "showcase",
+   "how-it-works",
+   "list",
+   "features",
+   "about",
+   "testimonial",
+   "pricing",
+   "faq",
+   "footer"
+  ],
+  "direction": "place-carries-it"
+ },
+ "imagery": "own",
+ "allow": [],
+ "direction": {
+  "id": "place-carries-it",
+  "name": "The place carries it",
+  "sectors": [
+   "hospitality",
+   "restaurant",
+   "real-estate",
+   "architecture",
+   "event",
+   "health",
+   "culture",
+   "nonprofit"
+  ],
+  "tones": [
+   "quiet",
+   "luxury",
+   "warm"
+  ],
+  "needs": [],
+  "idea": "For a place, the photograph is the argument. One full-bleed image of where you would be standing fills the first screen, and the design steps back: the name sits along the bottom edge like a film title, or small in a corner, and nothing else interrupts the view. The page that follows keeps that restraint: few words, large pictures, long pauses. The designer's work here is editing: choosing the one frame that makes someone want to be there, and then not covering it.",
+  "composition": "First screen: a single photograph at 100vw by 100svh, focal point kept clear of text. The name is set either very large (14–20vw) hugging the bottom edge with 16–24px of margin, or small (20–28px) top-left with a one-line description bottom-left. Navigation is two to four words in the top corners in the same small size. If text sits on the image, a soft neutral scrim under the text area only. Below, sections alternate between a short centred or left-set paragraph in a narrow column (max 52ch) with wide empty margins, and photographs shown large: one full-bleed, then a pair at different sizes, then one portrait offset to the right. Practical information (hours, address, rates, booking) is gathered once near the end in a plain two-column block.",
+  "typography": "A face with some grace for the name; small, calm, well-spaced text everywhere else. Sentence case. Body 17–19px with leading around 1.55.",
+  "typeClasses": [
+   "serif-display",
+   "serif-light-large",
+   "condensed-heavy",
+   "grotesk-light"
+  ],
+  "colour": "Neutral paper or deep neutral ground chosen to flatter the photographs; text ink drawn from the darkest tone in the imagery. Colour lives in the pictures.",
+  "paletteTags": [
+   "photographic-neutral",
+   "dark-neutral",
+   "earth"
+  ],
+  "imagery": "The dealt set is the palette. Choose four to six photographs with the same light. The hero image must have a calm area for the name. Full-bleed or large with square corners; never thumbnails, never a carousel of ten.",
+  "photoTreatment": "Leave photographs ungraded. If text overlays one, darken only the area behind the text with a neutral scrim.",
+  "sectionTags": [
+   "photo-led",
+   "quiet"
+  ],
+  "motion": "slow-crossfade",
+  "richness": "The photographs, at full size, uninterrupted. Empty paper around short text makes the next image land harder.",
+  "pitfalls": "A weak hero photograph cannot be fixed by typography; pick again. Do not stack a headline, a paragraph and two buttons on the image. Do not use a booking bar that covers the bottom of the view; one small action is enough.",
+  "seenIn": [
+   "aww-white-desert",
+   "opl-eagles-nest",
+   "aww-tengile-malamala-collection",
+   "aww-izanami",
+   "aww-seasats"
+  ],
+  "allow": [],
+  "needsPictures": true
+ },
+ "hero": {
+  "id": "name-under-photograph",
+  "name": "Name under a photograph",
+  "archetype": "giant-wordmark",
+  "directions": [
+   "name-as-monument",
+   "place-carries-it",
+   "dark-room"
+  ],
+  "needs": [],
+  "blueprint": "A full-bleed photograph fills the top 58% of the 1440×900 viewport, touching the top, left and right edges, `object-fit: cover`, with its focal point in the upper two-thirds. The lower 42% is a flat ground colour that butts against the photograph with no gap. The name runs across this band on one line, spanning all 12 columns between 24px margins, at clamp(120px, 19vw, 300px), tracking -0.05em, line-height 0.85, its baseline 28px above the bottom edge so descenders nearly touch it. Fit the size to the length of the name so it never wraps. In the strip of ground between photograph and name, 24px under the photograph's edge, sits one row at 17px: the supporting sentence on columns 1–5 at the left margin, and the single action as a small solid rectangular button flush to the right margin. Navigation is four text links at 15px laid over the photograph's top-right corner, 24px in, with a neutral scrim behind that row only if the image is light there. No logo is repeated: the name is the logo. Nothing else is on the screen.",
+  "mobile": "The photograph takes the top 50svh at full width, re-cropped around its focal point. The name sits under it at 23vw on one line; a name longer than seven characters breaks onto two lines at 21vw, line-height 0.85, and fills the band down to a 16px bottom margin. The supporting sentence at 16px and the action button stack above the name on the left margin. The links collapse to one 'Menu' word over the photograph, top-right.",
+  "headline": "The name itself on one line, up to about 12 characters at 19vw (drop towards 13vw for longer names), and at most two lines on a phone.",
+  "motion": "scaling-wordmark",
+  "seenIn": [
+   "aww-house-of-honey-1",
+   "opl-kereliott",
+   "aww-lxl-creative"
+  ]
+ },
+ "type": {
+  "id": "switzer-roman",
+  "name": "Switzer",
+  "class": "grotesk-light",
+  "display": {
+   "family": "Switzer",
+   "source": "fontshare",
+   "slug": "switzer",
+   "weights": [
+    400
+   ],
+   "italic": false,
+   "settings": "weight 400 · tracking -0.03em · leading 1.1 · sentence case; headings stay small (28–40px) and at most one line jumps to 5vw",
+   "css": "<link rel=\"preconnect\" href=\"https://api.fontshare.com\">\n<link rel=\"preconnect\" href=\"https://cdn.fontshare.com\" crossorigin>\n<link href=\"https://api.fontshare.com/v2/css?f[]=switzer@400,500&display=swap\" rel=\"stylesheet\">"
+  },
+  "text": {
+   "family": "Switzer",
+   "source": "fontshare",
+   "slug": "switzer",
+   "weights": [
+    400,
+    500
+   ],
+   "italic": false,
+   "settings": "400 for everything, 500 only for names and links · leading 1.45 · tracking -0.01em; hierarchy by ink against mid-grey",
+   "css": "<link rel=\"preconnect\" href=\"https://api.fontshare.com\">\n<link rel=\"preconnect\" href=\"https://cdn.fontshare.com\" crossorigin>\n<link href=\"https://api.fontshare.com/v2/css?f[]=switzer@400,500&display=swap\" rel=\"stylesheet\">"
+  },
+  "standsInFor": [
+   "Neue Haas Grotesk 55 Roman",
+   "Helvetica Now"
+  ],
+  "note": "A single roman weight of a Swiss neo-grotesk at two or three modest sizes; position and grey value do the work that size and bold usually do. Suits architects, galleries, studios and any quiet page where photographs carry the scale.",
+  "seenIn": [
+   "aww-revelatio-studio",
+   "opl-spatial",
+   "aww-pensatori-irrazionali",
+   "opl-compile"
+  ],
+  "links": [
+   "https://api.fontshare.com/v2/css?f[]=switzer@400,500&display=swap"
+  ],
+  "scale": {
+   "step-small": "clamp(0.8125rem, 0.79rem + 0.1vw, 0.875rem)",
+   "step-body": "clamp(1.0625rem, 1rem + 0.25vw, 1.1875rem)",
+   "step-lead": "clamp(1.25rem, 1.1rem + 0.7vw, 1.625rem)",
+   "step-head": "clamp(2rem, 1.3rem + 3.2vw, 4rem)"
+  }
+ },
+ "palette": null,
+ "photos": {
+  "set": "city-night",
+  "title": "City at night",
+  "note": "night streets, lights and long exposures",
+  "treatment": "Leave photographs ungraded. If text overlays one, darken only the area behind the text with a neutral scrim.",
+  "others": [
+   "interior-and-table",
+   "coast",
+   "mountain",
+   "desert-and-road"
+  ],
+  "photos": [
+   {
+    "id": 1078,
+    "alt": "Grid of lit office windows on a tower at night",
+    "tone": "dark",
+    "colours": [
+     "dark navy",
+     "warm yellow",
+     "black"
+    ],
+    "mono": false,
+    "calm": "none",
+    "quality": 4,
+    "ratio": 1.5,
+    "by": "Vladimir Kudinov",
+    "page": "https://unsplash.com/photos/KBX9XHk266s"
+   },
+   {
+    "id": 220,
+    "alt": "Tram tracks leading into fog under glowing street lamps at night",
+    "tone": "dark",
+    "colours": [
+     "muted purple",
+     "amber"
+    ],
+    "mono": false,
+    "calm": "top",
+    "quality": 4,
+    "ratio": 1.6,
+    "by": "Robin Röcker",
+    "page": "https://unsplash.com/photos/qUToqliACNA"
+   },
+   {
+    "id": 797,
+    "alt": "Red umbrella on a rainy street at night with blurred lights",
+    "tone": "dark",
+    "colours": [
+     "deep red",
+     "dark teal",
+     "black"
+    ],
+    "mono": false,
+    "calm": "none",
+    "quality": 4,
+    "ratio": 1.5,
+    "by": "Gabriel Santiago",
+    "page": "https://unsplash.com/photos/1vYkQVDWXl0"
+   },
+   {
+    "id": 985,
+    "alt": "City skyline silhouetted at dusk across rippling water",
+    "tone": "dark",
+    "colours": [
+     "navy",
+     "deep blue",
+     "pale orange"
+    ],
+    "mono": false,
+    "calm": "bottom",
+    "quality": 4,
+    "ratio": 1.5,
+    "by": "Hide Obara",
+    "page": "https://unsplash.com/photos/2p1HOcpi14U"
+   },
+   {
+    "id": 43,
+    "alt": "Suspension bridge and city skyline at night in black and white",
+    "tone": "dark",
+    "colours": [
+     "black",
+     "silver grey"
+    ],
+    "mono": true,
+    "calm": "top",
+    "quality": 4,
+    "ratio": 1.54,
+    "by": "Oleg Chursin",
+    "page": "https://unsplash.com/photos/IoCWq07GaG4"
+   },
+   {
+    "id": 171,
+    "alt": "Raindrops on a window with blurred traffic lights at night",
+    "tone": "dark",
+    "colours": [
+     "charcoal",
+     "dark teal",
+     "amber"
+    ],
+    "mono": false,
+    "calm": "top",
+    "quality": 4,
+    "ratio": 1.33,
+    "by": "Riley Briggs",
+    "page": "https://unsplash.com/photos/cSe3oKQ03OQ"
+   },
+   {
+    "id": 496,
+    "alt": "City skyline silhouette across the water under a deep blue dusk sky",
+    "tone": "dark",
+    "colours": [
+     "deep blue",
+     "amber",
+     "black"
+    ],
+    "mono": false,
+    "calm": "top",
+    "quality": 4,
+    "ratio": 1.51,
+    "by": "davide ragusa",
+    "page": "https://unsplash.com/photos/mOPCiXScx08"
+   },
+   {
+    "id": 195,
+    "alt": "Narrow alley lit by strings of hanging lights at night",
+    "tone": "dark",
+    "colours": [
+     "warm amber",
+     "dark brown",
+     "black"
+    ],
+    "mono": false,
+    "calm": "none",
+    "quality": 4,
+    "ratio": 0.75,
+    "by": "Matthew Skinner",
+    "page": "https://unsplash.com/photos/t05kfHeygbE"
+   }
+  ]
+ },
+ "motion": {
+  "id": "scaling-wordmark",
+  "name": "Scaling wordmark",
+  "description": "The giant name responds to the scroll: as the first screen leaves, the wordmark scales down a few percent (or grows from 0.94 to 1 as the footer arrives) on a scroll-linked timeline, so the monument feels heavy. Travel stays under 8%. Static fallback where scroll timelines are unsupported. Recipe: 'Scroll-linked progress' in references/motion.md, animating `scale`."
+ },
+ "sections": [
+  {
+   "id": "showcase-output-slips-along-the-edge",
+   "role": "showcase",
+   "name": "Output slips along the edge",
+   "shape": "full-bleed",
+   "tags": [
+    "photo-led",
+    "object-led"
+   ],
+   "directions": [
+    "page-is-the-object",
+    "borrowed-category",
+    "place-carries-it",
+    "loud-flat-poster"
+   ],
+   "needs": [],
+   "blueprint": "For subjects whose result is a piece of text or paper: a receipt, a note, a ticket, a written line. A full-bleed photograph, 100vw by 96svh, sets the scene. In the upper centre, left-aligned in a column starting at 18% of the width, two short paragraphs in paper colour at 28–32px, the first opening with the heading's two to four words; a neutral scrim sits behind that column only. Along the bottom, six paper-coloured slips stand side by side across the full width with 12px gaps, each a filled rectangle of a different height (between 26 and 44svh), their lower ends cut off by the section's bottom edge. Two or three of the slips, not all, are tilted by 1–2 degrees. Each slip carries a sample of real output in the text face at 15px: a bold first line, a divider made of typed characters, then four to eight lines.",
+   "mobile": "The photograph is 100svh. The paragraphs sit in the top third at 22px. Only three slips show, each 30vw wide, standing along the bottom at different heights, and the row scrolls sideways to reveal the rest. Slip text stays at 14px; do not scale it down.",
+   "seenIn": [
+    "opl-poetry-camera"
+   ]
+  },
+  {
+   "id": "how-it-works-photographs-down-a-diagonal",
+   "role": "how-it-works",
+   "name": "Photographs down a diagonal",
+   "shape": "stack",
+   "tags": [
+    "photo-led",
+    "quiet"
+   ],
+   "directions": [
+    "uneven-photographs",
+    "place-carries-it",
+    "dark-room"
+   ],
+   "needs": [],
+   "blueprint": "Three stages, three photographs of different sizes placed along a falling diagonal on the 12-column grid. Stage one: a 3:4 portrait in columns 1–4. Stage two: a 1:1 square in columns 6–8, its top edge 220px lower than the first photograph's top. Stage three: a 16:10 landscape in columns 8–12, starting 180px below the bottom of the second. Each stage's text sits in the gap the stagger leaves: a paragraph of up to 36ch at 17px, top-aligned with its photograph and placed in the columns to its right (to its left for the third). Each paragraph opens with a bold run-in phrase that carries the order: 'On the first day', 'A week later', 'By the end'. Square corners; no arrows or connecting marks. The heading, two to four words at clamp(36px, 4vw, 64px) in a light weight, sits alone in columns 7–12 at the very top, level with the first photograph's top edge.",
+   "mobile": "The diagonal becomes alternating widths: the first photograph at 100%, the second at 62% flush right, the third at 78% flush left. Each paragraph follows its photograph on that photograph's left edge at 16px. 56px between stages. The heading sits above at 30px.",
+   "seenIn": [
+    "opl-fynza",
+    "opl-the-queue"
+   ]
+  },
+  {
+   "id": "list-printed-menu-sheet",
+   "role": "list",
+   "name": "The printed menu sheet",
+   "shape": "band",
+   "tags": [
+    "object-led",
+    "type-led",
+    "colour-field"
+   ],
+   "directions": [
+    "page-is-the-object",
+    "place-carries-it",
+    "split-stage",
+    "borrowed-category"
+   ],
+   "needs": [],
+   "blueprint": "The list is one tall sheet of paper. A filled paper-colour panel 640px wide sits centred, or offset to columns 7–12, on a contrasting flat ground or a full-bleed photograph, with square corners and its top and bottom edges cut into shallow scallops by `clip-path` or an SVG `mask`. Inside, 64px padding and a centred, symmetrical setting like a printed card: the venue or section name at 40–48px, a one-line note at 15px, then three or four groups 56px apart. Each group opens with its name at 22px, centred. Items follow at 17px with 16px between them: the dish or service at the left of a 420px measure, the price at the right with tabular figures, and a one-line description at 14px in the soft ink under the name. Alignment alone links name and price; there are no leaders. The sheet ends with the opening hours as two centred lines. Holds 12–24 items.",
+   "mobile": "The sheet spans the screen with 10px of ground showing at each side and 28px padding; the scalloped edges stay at top and bottom. The measure is the full inner width and prices stay right-aligned. Group names at 20px, items at 16px.",
+   "seenIn": [
+    "opl-le-petit-bleu",
+    "opl-madie",
+    "opl-sarah-matt-wedding"
+   ]
+  },
+  {
+   "id": "features-one-scene-stepping-statements",
+   "role": "features",
+   "name": "One scene, stepping statements",
+   "shape": "full-bleed",
+   "tags": [
+    "photo-led"
+   ],
+   "directions": [
+    "place-carries-it",
+    "pinned-poster",
+    "dark-room",
+    "hero-object",
+    "uneven-photographs"
+   ],
+   "needs": [],
+   "blueprint": "A wrapper 350–450vh tall holds a sticky full-bleed photograph (100vw by 100svh) with a calm, symmetrical subject and a clear upper third; a neutral dark scrim covers only that upper third. At top centre, five or six short statements of two to five words are stacked at 18–20px with 10px between them; the first of them is the section's heading. One statement is at full white and the rest at 45% opacity; the active line steps down the stack as the reader scrolls (IntersectionObserver on invisible 70vh markers). For each statement, two small photographs with square corners, 160–240px wide and of different ratios, fade in left and right of the centre line at different heights, then leave when the next pair arrives. No other text. A low-key image on a deep ground works equally well.",
+   "mobile": "The photograph stays sticky at 100svh, cropped to its centre. The statement stack moves to the bottom third over a scrim, at 17px, left-aligned on the margin. Each statement brings one small photograph only, 44vw wide, placed in the top-right corner with a 16px margin.",
+   "seenIn": [
+    "aww-seasats",
+    "opl-eagles-nest"
+   ]
+  },
+  {
+   "id": "about-photo-tile-facts",
+   "role": "about",
+   "name": "Wide photo, colour tile, facts",
+   "shape": "mosaic",
+   "tags": [
+    "photo-led",
+    "colour-field"
+   ],
+   "directions": [
+    "place-carries-it",
+    "uneven-photographs",
+    "dense-tiles",
+    "editorial-report"
+   ],
+   "needs": [],
+   "blueprint": "Top: a heading of two to four words at clamp(40px, 4vw, 60px) on the left margin, then 24px below it a three-line lead paragraph at 21–22px across columns 1–6. 72px lower, two tiles sit side by side with a 16px gap. The left tile spans columns 1–8: a landscape photograph at 16:10 with one radius (0 or 10px). A short paragraph of up to 35 words at 16px is set in a solid paper-colour block 320px wide with 20px padding, placed over the photograph's top-right corner and flush with both edges. The right tile spans columns 9–12 and is a flat palette colour, 60% of the photograph's height: it holds a simple inline SVG outline of the region or the floor plan as one filled shape, with one solid dot marking the location. Under the colour tile, four label and value pairs at 14px in a two-by-two grid: altitude, distance, season, local time.",
+   "mobile": "Heading at 9vw, lead at 18px. The photograph goes full width at 4:3 and its overlaid paragraph moves beneath it as ordinary text. The colour tile follows at full width and 3:2, and the four label and value pairs sit under it in two columns.",
+   "seenIn": [
+    "opl-eagles-nest",
+    "opl-le-petit-bleu"
+   ]
+  },
+  {
+   "id": "testimonial-quote-over-photograph",
+   "role": "testimonial",
+   "name": "Quotation over a photograph",
+   "shape": "full-bleed",
+   "tags": [
+    "photo-led"
+   ],
+   "directions": [
+    "place-carries-it",
+    "dark-room",
+    "hero-object",
+    "uneven-photographs"
+   ],
+   "needs": [],
+   "blueprint": "One photograph fills the section edge to edge at 100vw by 90svh with `object-fit: cover`; choose a frame with a calm lower half. The quotation is set directly on it in the paper colour: two or three lines at clamp(36px, 5vw, 80px), leading 1.0, flush left in columns 1–9, its last baseline 64px above the bottom edge. The speaker's name and role sit at 16px on that same baseline, right-aligned in columns 10–12. For legibility, darken the whole image evenly with `filter: brightness(0.7)` instead of placing a panel behind the words; the photograph must still read as a photograph. There is no heading, no frame and no oversized quotation-mark ornament, only plain curly quotes in the text. The section butts directly against its neighbours with no margin, so the image edge is the section edge.",
+   "mobile": "The photograph becomes 100vw by 80svh, cropped to its strongest vertical slice. The quotation sits in the lower half at 9vw over four lines at most, flush left with 20px margins; the name and role follow under it on one line at 15px.",
+   "seenIn": [
+    "opl-berd"
+   ]
+  },
+  {
+   "id": "pricing-menu-list",
+   "role": "pricing",
+   "name": "Prices like a menu",
+   "shape": "list",
+   "tags": [
+    "quiet",
+    "type-led"
+   ],
+   "directions": [
+    "page-is-the-object",
+    "place-carries-it",
+    "split-stage",
+    "uneven-photographs",
+    "quiet-instrument",
+    "specimen-catalogue",
+    "dark-room"
+   ],
+   "needs": [],
+   "blueprint": "Prices set the way a good menu sets them. A heading of two to three words at 32–40px sits in columns 1–3. Columns 5–12 hold the list in two text columns with a 64px gap. Items are grouped under plain group names at 24px in medium weight with 48px above each group. Each item is a row: the name at 19px on the left, the price at the same size on the right on the same baseline, with tabular figures and the currency sign shown only once per group; beneath the name, one line of description at 16px in the softer ink, no wider than 36ch. Rows are 22px apart. Name and price are joined only by empty space (flex with `justify-content: space-between`), with no dot leaders and no lines. One small photograph (4:5, three columns wide) may sit under the heading in the left zone.",
+   "mobile": "One column. The heading at 28px, then the photograph at 60% width if used. Each item keeps name left and price right on one line at 17px, with its description beneath in the softer ink. Group names at 20px with 40px above.",
+   "seenIn": []
+  },
+  {
+   "id": "faq-accordion-beside-tall-photo",
+   "role": "faq",
+   "name": "Questions beside a tall photograph",
+   "shape": "split",
+   "tags": [
+    "photo-led",
+    "quiet"
+   ],
+   "directions": [
+    "place-carries-it",
+    "split-stage",
+    "uneven-photographs",
+    "dark-room",
+    "hero-object",
+    "page-is-the-object"
+   ],
+   "needs": [],
+   "blueprint": "One field in a deep or pale flat tone, split 5 to 7. Left, columns 1–5: a heading of two to four words at 36–44px; under it the three or four practical facts people ask first (address, times, how to arrive) as plain lines at 18px; then five or six questions as an accordion with no lines between rows, only 28px of space. Each question is a `<summary>` at 20px with a small chevron drawn from two 2px strokes at its right; the open answer sits beneath at 17px in the softer ink, on the same left edge. One filled button and one text link close the column. Right, columns 7–12: a tall photograph (3:4) that bleeds off the top edge of the section and stops 80px short of the bottom, with a second, square photograph a third of its width overlapping its lower-left corner by 40px.",
+   "mobile": "The tall photograph leads at full width, 4:5, with the square one overlapping its bottom-right corner at 38% width. Heading at 30px, facts at 17px, then the accordion at full width with 24px between questions and 44px touch targets. Button full width at the end.",
+   "seenIn": [
+    "opl-sarah-matt-wedding"
+   ]
+  },
+  {
+   "id": "footer-contact-set-large",
+   "role": "footer",
+   "name": "Contact as the headline",
+   "shape": "statement",
+   "tags": [
+    "colour-field",
+    "type-led",
+    "poster"
+   ],
+   "directions": [
+    "colour-chapters",
+    "loud-flat-poster",
+    "type-only-statement",
+    "borrowed-category",
+    "sentence-as-layout",
+    "editorial-report",
+    "place-carries-it"
+   ],
+   "needs": [],
+   "blueprint": "A full-bleed field in one saturated palette colour, at least 90svh tall. Top row, 40px from the edge: two or three short notes at 15px in columns 1–7 (address, hours, a one-line description) and a back-to-top text link at the right margin. Then a tall empty gap. In the lower half, the way to get in touch is the display line: the telephone number or the email address itself, set at 8–9vw, flush left, hard against the margin, as one link. An email address may break once, before the @, giving two lines. Size it with `clamp()` so the longest line fills at least 80% of the width. Under it, one row of small text at 14px spread across three positions: links at the left, credits in the centre, city and year at the right. The wordmark appears only small, in the top row.",
+   "mobile": "Notes stack at the top at 15px. The contact line sits in the lower half at 12vw; a telephone number stays on one line, an email breaks before the @ and is sized so each half fits the width. The meta row becomes three stacked lines at 13px.",
+   "seenIn": [
+    "aww-era-residence",
+    "aww-coffeetech-r",
+    "opl-ohhmydesign",
+    "opl-mammut-studios",
+    "opl-belgrade-architecture"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "id": "aww-izanami",
+   "name": "IZANAMI",
+   "url": "https://izanami-official.com/",
+   "source": "Awwwards Site of the Day",
+   "kind": "architecture",
+   "score": 7,
+   "idea": "Silence as design: one small sentence in fog, then a slow descent from mist into a dark glass pavilion.",
+   "mood": [
+    "meditative",
+    "dark",
+    "misty",
+    "ceremonial",
+    "quiet"
+   ],
+   "archetype": "fullbleed-media-overlay",
+   "hero": "After a warm-black loader showing only one 18px serif sentence and a small counter, the hero is a full-bleed, desaturated grey-green image of pine forest dissolving into fog. The same sentence stays at 18px in white, left-aligned on a line about 17% from the left edge and exactly at vertical centre; it is the only text in the picture area. A small white seal-style logo sits top-left; a language switch and menu label in tiny tracked capitals sit top-right, each with a dot above. Along the bottom edge: copyright, two live city clocks, and a scroll cue at far right, all near 10px.",
+   "type": "Playfair Display regular for the few headings, only 18 to 45px (3.1vw at most); Shippori Mincho for body at 14px; Cinzel capitals with wide tracking for nav, clocks and footer. Nothing is large: hierarchy comes from isolation rather than size.",
+   "colour": "#0a0801 #6f7a70 #b7b5a6 #d9d2c3 #4b5b39 — Warm near-black panels and grey-green fog imagery with off-white text at reduced opacity. Moss green and sand from the small garden photos are the only colour; there is no accent.",
+   "imagery": "Fog-bound forest, a black-framed glass pavilion seen in one-point perspective, and small crops of incense smoke, a bamboo water spout and raked gravel. Small images are square-cornered, portrait or square, overlapping one another and the dark ceiling plane.",
+   "layout": "Wide margins, with text hung on an inner line about 17% across instead of the page edge. Most screens hold one image and one short text; small photos are placed asymmetrically near corners and overlap. A rotated section label runs down the left edge.",
+   "sections": [
+    {
+     "role": "intro",
+     "description": "Over the black ceiling of the pavilion image, a three-line serif heading at about 3vw sits left of centre, each line indented further than the one above. Faint body text follows below it. A small square photo sits top-left under the logo; at right, three portrait photos overlap in a cluster, two beige garden shots behind and a narrower green water-ripple image in front and raised higher, running off the bottom edge."
+    },
+    {
+     "role": "other",
+     "description": "Full-bleed one-point-perspective view down a glass corridor, its ceiling filling the upper half as near-black. A text link with a short leading rule sits top-left on the inner line; a landscape photo of raked gravel is tucked against the top edge right of centre; a three-line heading fades in low and left of centre over the glass. A section name rotated ninety degrees runs down the far left."
+    },
+    {
+     "role": "footer",
+     "description": "Near-black and almost empty. One section name in serif at about 24px, preceded by a long thin rule, sits at mid-height left of centre. Lower down, tiny tracked-capital columns: a nav list, two office addresses side by side, and social links pushed to the far right. The bottom edge repeats the copyright and the two city clocks."
+    }
+   ],
+   "steal": [
+    "Place a single 18px sentence at vertical centre on an offset left line over full-bleed fog, and let the absence of a headline be the statement.",
+    "Stair-step a three-line heading by indenting each line further than the one above it.",
+    "Run two live city clocks with time-zone labels along the bottom edge as quiet proof of where the firm operates."
+   ],
+   "media": "A misted forest photograph covers the whole first screen under drifting cloud layers, with text on about 0.2% of the area. Then a pinned full-screen architectural scene dollies forward while overlapping collages of two or three photographs at different widths pass over it, rows pair a text column at about 28vw with a portrait flush to the right margin, and the fog band returns as a bookend; about 11 photographs, one WebGL canvas, no video.",
+   "motion": "A warm near-black screen with the tagline already in place until about 2.5s, then a fog bank creeps in from the lower right and the chrome fades in by 4.5s; load took 7.2s. Lenis with three sticky sections scrubs the scene as the forest darkens and the camera sinks into the pavilion, photographs move at different rates, and headline lines fade in one by one; two cloud layers loop on 100s linear translates, and there is no reduced-motion rule."
+  },
+  {
+   "id": "aww-white-desert",
+   "name": "White Desert",
+   "url": "https://white-desert.com/",
+   "source": "Awwwards Site of the Day",
+   "kind": "hospitality",
+   "score": 8.4,
+   "idea": "One word, the destination, set a third of the screen tall over footage like a film title card; sheer scale stands in for remoteness.",
+   "mood": [
+    "cinematic",
+    "epic",
+    "luxurious",
+    "cold",
+    "restrained"
+   ],
+   "archetype": "bottom-anchored-type",
+   "hero": "Full-bleed video (the view from an aircraft window over an ice shelf, darkly vignetted by the window frame) fills the viewport. Faint vertical hairlines divide it into six columns. Top-left, three outlined rectangular nav buttons about 120 by 40px with 6px gaps; top-right, two more; between them a small white mountain logo over a condensed caps name. One condensed uppercase word spans almost the full width at 17.8vw, white, centred, anchored so its baseline sits about 35px above the bottom edge. At mid-height a two-line italic serif tagline at about 16px hangs on the first column line at left, and a film-play label sits between two hairlines at right.",
+   "type": "Three voices: Oswald 400 uppercase for the giant word and footer wordmark (up to 22vw); Cardinal Classic Long, a light high-contrast serif, for caps statements near 32px and italic taglines; Inter Tight 14px for nav and body. Body to display is roughly an 18x jump.",
+   "colour": "#040608 #ffffff #e9e7e1 #1f2b4d #f5821f #95979a — Footage and near-black open the page; content sections flip to pure white with navy serif type and end on a warm grey footer. One small orange tab is the only accent. Cool overall.",
+   "imagery": "Aerial and wildlife footage and stills of ice, penguins and rust-coloured rock peaks, natural cool grade, always full-bleed with square corners; trips appear as tall vertical image slices set side by side with no gaps.",
+   "layout": "A six-column grid made visible by faint full-height hairlines runs through every section. Text blocks are small and hung off column lines, often starting at column two or three, with large voids around them. Full-bleed image screens alternate with nearly empty white text screens.",
+   "sections": [
+    {
+     "role": "intro",
+     "description": "A white screen with the six vertical hairlines still showing. A serif caps paragraph at about 32px, navy, light weight and tight leading, occupies only columns two to four, left-aligned with its first line indented by half the measure. Above its top-left sits a small italic label ringed by a loose hand-drawn pen scribble. An orange vertical tab with rotated text is fixed to the right edge."
+    },
+    {
+     "role": "gallery",
+     "description": "Leaving the hero, the giant word blurs and dissolves into white mist that becomes the next section's background. Later a full-viewport photograph of jagged rock peaks in snow bleeds to all four edges, with a narrow 13px paragraph from the white section above overlapping its top edge at a column line, so text and image interlock rather than stack."
+    },
+    {
+     "role": "showcase",
+     "description": "A serif caps heading at about 40px sits left of centre with a long pencil-like scribble underline that extends well past the words on both sides. Below, a full-width band of four vertical image panels with no gaps and unequal widths, like an accordion; the first panel carries a two-line italic serif title in white at its top-left."
+    },
+    {
+     "role": "footer",
+     "description": "Warm grey field. The top row holds a small logo, three columns of grey link lists with italic serif group headings and, at right, a stack of square-cornered off-white tiles (a video thumbnail, two half-width buttons, one full-width). Beneath, the brand name in navy condensed caps runs edge to edge at about 22vw. A final strip has award badges left, a centred italic quotation and legal links right."
+    }
+   ],
+   "steal": [
+    "Set a single place name in condensed caps at about 18vw, centred and anchored to the bottom edge of full-bleed footage, with everything else on screen at 14-16px.",
+    "Leave the column grid visible as faint full-height hairlines across video, white and footer sections, and hang small text blocks off those lines.",
+    "Ring or underline small serif labels with a loose hand-drawn pen scribble to put one human mark into an otherwise strict layout."
+   ],
+   "media": "An 18s muted aerial and ice-cave clip covers the whole first screen under a scrim, with the title docked along the bottom edge. Later pictures dissolve into the white page through fog-like fades, a horizontal accordion opens one trip panel at half width beside blurred slivers, vertical ice strips wipe across the previous photograph, and a long pinned track of inset cards floats on a full-bleed texture ground before a closing photo panel carrying a quotation; 20 images, one video, square corners and a high-key cold grade.",
+   "motion": "There is no entrance choreography and footage plays from the first frame; under Lenis the hero title blurs and is swallowed by a sticky fog layer growing from 390 to 900px tall, statement lines fill from grey to navy, the camps heading scrubs from 140px down to 60px, and a pinned horizontal track moves the cards at about 0.56px per scrolled pixel over an 8,328px runway. Blocks rise 20rem with opacity over 1.4s cubic-bezier(.16,1,.3,1), and hovers run .3s cubic-bezier(.5,1,.89,1)."
+  },
+  {
+   "id": "opl-compile",
+   "name": "Cursor Compile",
+   "url": "https://cursor.com/compile",
+   "source": "One Page Love",
+   "kind": "event",
+   "score": 8.3,
+   "idea": "The event name drawn as seven looping one-line curves in seven colours, more signature than logotype, on an otherwise whisper-quiet off-white page whose images are re-rendered as rows of coloured characters.",
+   "mood": [
+    "quiet",
+    "hand-drawn",
+    "warm",
+    "technical",
+    "restrained"
+   ],
+   "archetype": "giant-wordmark",
+   "hero": "Warm off-white field with no header or navigation. Starting about 23% down, a line-drawn wordmark spans from 8% to 92% of the width and about 29% of the height: each letter is a single 2px stroke looping like a Lissajous figure, each in a different colour (orange, green, olive, lilac, black, brown, blue), overlapping its neighbours. Directly beneath, two 14px captions, one flush left in ink and one flush right in grey. After a gap of about 20% of the viewport, three equal columns sit at the bottom, each topped by a hairline: an 18px statement, a grey 14px paragraph, and an email field over a full-width near-black rectangular button.",
+   "type": "The only large lettering is the drawn wordmark. All real text is CursorGothic regular in two sizes, 18px and 14px (the largest text on the page is 1.8vw), sentence case, with hierarchy made by ink versus mid-grey rather than by size or weight.",
+   "colour": "#edece8 #26251e #f07a1f #2e9e3a #2f6bf0 #9b8ff0 — Warm paper ground with near-black and grey text. The wordmark's colours return one at a time as the single ink of each character-rendered image (lilac, teal, green, orange). Event photos are dark and warm.",
+   "imagery": "Two kinds: landmarks and speaker portraits redrawn as rows of tiny characters in one saturated colour on a tint of the same colour; and dark, warm documentary event photos. All are square-cornered rectangles in strict rows.",
+   "layout": "About 7% side margins on a three-column grid. Each section has a small two-line heading at left (title in ink, subtitle in grey), then a row or carousel of equal tiles with one-line captions beneath. Very large vertical gaps between sections; a denser photo grid near the end.",
+   "sections": [
+    {
+     "role": "list",
+     "description": "Tour dates as a three-column grid of 3:2 tiles. Each tile is a city landmark rendered entirely in rows of small characters in one colour on a pale tint of that colour: lilac, teal, green, orange. Under each tile, one caption line: city name in ink, date in grey straight after it, and a status word flush right. A fourth tile wraps alone to the left of a second row, leaving two columns empty."
+    },
+    {
+     "role": "gallery",
+     "description": "Session recordings as stacked carousels. A small heading and grey subtitle, then per stage a tiny label at left with two arrow glyphs at far right and a row of 16:9 dark photo tiles, two full tiles visible and a third cropped by the margin. Each tile has a small white event tag in its bottom-left corner. Caption beneath: speaker name in ink followed by the talk title in grey on the same line."
+    },
+    {
+     "role": "about",
+     "description": "Speaker row: one-line heading at left, arrows at right, then four near-square portrait tiles with 8px gaps, each a face drawn in horizontal rows of characters in one colour on its tint (orange, green, lilac, teal). Some tiles show only plain stripes with the face barely emerging, so portraits appear to resolve from lines as they load or on hover."
+    },
+    {
+     "role": "cta",
+     "description": "After a three-column photo grid with mixed landscape and portrait crops and 8px gaps, the page ends on an empty off-white screen holding one centred sentence at 18px and a small dark pill button beneath it. There are no footer columns, links or legal rows."
+    }
+   ],
+   "steal": [
+    "Draw the name as one continuous thin looping stroke per letter, each in a different colour, and let it be the only large element on the page.",
+    "Keep all text at two small sizes and build hierarchy from ink versus grey on the same line (name in ink, detail in grey right after it).",
+    "Re-render photographs as rows of tiny characters in a single saturated colour on a tint of that colour, one colour per tile."
+   ]
+  }
+ ],
+ "scenes": []
+}

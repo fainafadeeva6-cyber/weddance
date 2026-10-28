@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Каталог танцев — WED DANCE</title>
+<script src="assets/js/variants.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;700&amp;display=swap">
+<link rel="stylesheet" href="assets/css/tokens.css">
+<link rel="stylesheet" href="assets/css/base.css">
+<link rel="stylesheet" href="assets/css/motif.css">
+<link rel="stylesheet" href="assets/css/home.css">
+<link rel="stylesheet" href="assets/css/catalog.css">
+</head>
+<body>
+<header class="top">
+  <div class="top__l"><a class="top__logo" href="index.html"><img src="assets/logo.svg" alt="WED DANCE — на главную" width="62" height="40"></a><a class="top__cat" href="catalog.html" aria-current="page">Каталог</a></div>
+  <nav class="nav" aria-label="Разделы"><a href="index.html#how">Как это работает</a><a href="index.html#reviews">Отзывы</a><a href="index.html#faq">Вопросы</a><a href="#">Офлайн в Ростове</a></nav>
+  <a class="top__search" href="catalog.html#q" aria-label="Поиск по песне"><svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="6" fill="none" stroke="currentColor" stroke-width="2"/><path d="M13 13l5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></a>
+  <details class="burger"><summary aria-label="Меню"><svg width="22" height="22" viewBox="0 0 22 22" aria-hidden="true"><path d="M3 6h16M3 11h16M3 16h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><nav class="burger__panel" aria-label="Меню"><a href="index.html#how">Как это работает</a><a href="index.html#reviews">Отзывы</a><a href="index.html#faq">Вопросы</a><a href="#">Офлайн в Ростове</a><a href="#">Telegram</a></nav></details>
+</header>
+<main class="wrap">
+  <h1 class="cat-title">Готовые танцы <span id="total"></span></h1>
+  <p class="small cat-sub">Видеоуроки с подробным разбором. Доступ бессрочный.</p>
+  <div class="cat-layout">
+<dialog class="sheet" id="filters" aria-labelledby="ftitle">
+  <form method="dialog">
+    <div class="sheet__head"><h2 id="ftitle">Фильтры</h2><button class="sheet__close" value="close" aria-label="Закрыть">×</button></div>
+    <fieldset><legend>Настроение</legend><div class="opts" data-f="mood"><button type="button" class="chip" data-v="romantic" aria-pressed="false">романтичный</button><button type="button" class="chip" data-v="energetic" aria-pressed="false">энергичный</button><button type="button" class="chip" data-v="calm" aria-pressed="false">спокойный</button></div></fieldset>
+    <fieldset><legend>Сложность</legend><div class="opts" data-f="level"><button type="button" class="chip" data-v="1" aria-pressed="false">просто</button><button type="button" class="chip" data-v="2" aria-pressed="false">средне</button><button type="button" class="chip" data-v="3" aria-pressed="false">сложнее</button></div></fieldset>
+    <fieldset><legend>Стиль</legend><div class="opts" data-f="style"><button type="button" class="chip" data-v="вальс" aria-pressed="false">вальс</button><button type="button" class="chip" data-v="медленный" aria-pressed="false">медленный</button><button type="button" class="chip" data-v="современный" aria-pressed="false">современный</button><button type="button" class="chip" data-v="микс" aria-pressed="false">микс</button></div></fieldset>
+    <fieldset><legend>Язык песни</legend><div class="opts" data-f="lang"><button type="button" class="chip" data-v="RU" aria-pressed="false">русский</button><button type="button" class="chip" data-v="EN" aria-pressed="false">иностранный</button></div></fieldset>
+    <fieldset><legend>Длина танца</legend><div class="opts" data-f="dur"><button type="button" class="chip" data-v="short" aria-pressed="false">до 2:40</button><button type="button" class="chip" data-v="mid" aria-pressed="false">2:40–3:00</button><button type="button" class="chip" data-v="long" aria-pressed="false">больше 3 мин</button></div></fieldset>
+    <div class="sheet__foot"><button type="button" class="btn btn--ghost" id="reset">Сбросить</button><button class="btn btn--gold" value="apply" id="apply">Показать</button></div>
+  </form>
+</dialog>
+  <div class="cat-main">
+  <div class="cat-tools">
+    <label class="search"><span class="sr">Поиск по песне или артисту</span><input id="q" type="search" placeholder="Песня или артист" autocomplete="off"></label>
+    <div class="cat-row">
+      <button class="chip" id="openFilters" aria-haspopup="dialog">Фильтры <span id="fcount"></span></button>
+      <label class="sort"><span class="sort__label">Сортировка</span><select id="sort"><option value="hits">Сначала хиты</option><option value="new">Сначала новые</option><option value="price">Сначала дешевле</option></select></label>
+    </div>
+  </div>
+  <div class="hits cat-grid" id="grid" aria-live="polite"></div>
+  <div class="empty" id="empty" hidden><h2>Ничего не нашли</h2><p>Попробуйте убрать фильтр или написать Насте — подскажет танец под вашу песню.</p><button class="btn btn--ghost" id="reset2">Сбросить фильтры</button></div>
+  </div>
+  </div>
+</main>
+
+<footer class="foot is-dark">
+  <div class="foot__in">
+  <div class="foot__brand"><img src="assets/logo-na-temnom.svg" alt="WED DANCE" width="87" height="56">
+  <p>Готовые видеоуроки свадебного танца.</p></div>
+  <ul><li><a href="index.html">Главная</a></li><li><a href="#">Офлайн в Ростове</a></li><li><a href="#">Telegram</a></li><li><a href="#">Оферта</a> · <a href="#">Политика ПДн</a></li></ul>
+  <p class="small">[Самозанятая, ИНН] · Ростов-на-Дону</p>
+  </div>
+</footer>
+<script src="assets/js/cards.js"></script>
+<script src="assets/js/catalog.js"></script>
+<script src="assets/js/motion.js"></script>
+</body>
+</html>

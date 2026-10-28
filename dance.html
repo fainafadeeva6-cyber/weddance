@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Урок свадебного танца — WED DANCE</title>
+<script src="assets/js/variants.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;700&amp;display=swap">
+<link rel="stylesheet" href="assets/css/tokens.css">
+<link rel="stylesheet" href="assets/css/base.css">
+<link rel="stylesheet" href="assets/css/motif.css">
+<link rel="stylesheet" href="assets/css/home.css">
+<link rel="stylesheet" href="assets/css/dance.css">
+</head>
+<body>
+<header class="top">
+  <div class="top__l"><a class="top__logo" href="index.html"><img src="assets/logo.svg" alt="WED DANCE — на главную" width="62" height="40"></a><a class="top__cat" href="catalog.html">Каталог</a></div>
+  <nav class="nav" aria-label="Разделы"><a href="index.html#how">Как это работает</a><a href="index.html#reviews">Отзывы</a><a href="index.html#faq">Вопросы</a><a href="#">Офлайн в Ростове</a></nav>
+  <a class="top__search" href="catalog.html#q" aria-label="Поиск по песне"><svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="6" fill="none" stroke="currentColor" stroke-width="2"/><path d="M13 13l5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></a>
+  <details class="burger"><summary aria-label="Меню"><svg width="22" height="22" viewBox="0 0 22 22" aria-hidden="true"><path d="M3 6h16M3 11h16M3 16h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><nav class="burger__panel" aria-label="Меню"><a href="index.html#how">Как это работает</a><a href="index.html#reviews">Отзывы</a><a href="index.html#faq">Вопросы</a><a href="#">Офлайн в Ростове</a><a href="#">Telegram</a></nav></details>
+</header>
+<main class="d-page">
+  <div class="d-media"><video id="preview" src="assets/media/dance-preview.mp4" poster="assets/media/dance-preview-poster.jpg" muted playsinline autoplay loop preload="metadata" aria-label="Фрагмент урока без звука"></video></div>
+  <section class="wrap d-head">
+    <h1 id="title">&nbsp;</h1>
+    <p class="d-artist" id="artist">&nbsp;</p>
+    <p class="d-meta"><span class="d-badges" id="badges"></span><span id="meta" class="d-meta"></span></p>
+    <div class="d-buy" id="buy">
+      <div class="d-pkgs" role="radiogroup" aria-label="Формат">
+        <label class="d-pkg"><input type="radio" name="pkg" value="lesson" checked><span><b>Урок</b><span id="p1"></span></span></label>
+        <label class="d-pkg"><input type="radio" name="pkg" value="review"><span><b>Урок + разбор вашего видео</b><span>+ [цена]</span></span></label>
+      </div>
+      <button class="btn btn--gold btn--block" id="buyBtn" type="button">Оформить заказ</button>
+      <p class="small">Без регистрации. Доступ к уроку бессрочный. Вернем деньги, пока вы не открыли урок.</p>
+    </div>
+  </section>
+
+  <section class="section wrap d-about">
+    <h2>О танце</h2>
+    <p class="lead" id="about"></p>
+  </section>
+
+  <section class="section wrap">
+    <h2>Что входит</h2>
+    <ul class="included" id="included">
+      <li><span><b>Урок как живое занятие.</b> Я разбираю танец с парой, а вы повторяете вместе с ними, как будто пришли ко мне в зал.</span></li>
+      <li><span><b>Подробный разбор движений.</b> <span id="countLine">Каждую связку сначала медленно, потом в темпе.</span></span></li>
+      <li><span><b>Танец целиком под музыку.</b> Чтобы видеть, как все складывается.</span></li>
+      <li id="liftsLine"><span><b>Альтернативные поддержки отдельным видео.</b> Если не хотите поднимать невесту, есть простой вариант.</span></li>
+      <li><span><b>Музыка:</b> ссылка на официальный трек и с какой секунды начинать.</span></li>
+    </ul>
+    <p class="small d-len" id="lessonLen"></p>
+  </section>
+
+  <section class="section wrap">
+    <h2>Подойдет вам, если</h2>
+    <ul class="included">
+      <li><span>Вы никогда не танцевали вместе.</span></li>
+      <li><span>Хотите красивый танец, но без долгих репетиций в зале.</span></li>
+      <li><span>Удобнее заниматься дома вечером, когда есть время.</span></li>
+      <li><span>До свадьбы осталось от 3 недель.</span></li>
+    </ul>
+  </section>
+
+  <section class="section wrap">
+    <div class="d-time soft">
+      <span class="count" aria-hidden="true"><i>1</i><i>2</i><i>3</i></span>
+      <h2>Сколько времени займет</h2>
+      <p>В среднем 3–4 недели по 2 занятия по 30–40 минут. Первую часть танца обычно разучивают за один вечер.</p>
+    </div>
+  </section>
+
+  <section class="section wrap" id="simple" hidden>
+    <h2>Слишком сложно?</h2>
+    <p>Есть танцы попроще на похожее настроение.</p>
+    <a class="btn btn--ghost more" href="catalog.html?level=1">Показать простые</a>
+  </section>
+
+  <section class="section wrap">
+    <h2>Отзывы об этом танце</h2>
+    <div class="reviews">
+      <figure class="review" style="margin:0"><img src="assets/media/couple-5.jpg" alt="Пара на свадьбе" width="96" height="96" loading="lazy"><figcaption><p>«Боялись, что не успеем за месяц. Успели за две недели и еще отрепетировали в платье».</p><span class="small">[Имена], [месяц, год]</span></figcaption></figure>
+      <figure class="review" style="margin:0"><img src="assets/media/couple-6.jpg" alt="Пара танцует" width="96" height="96" loading="lazy"><figcaption><p>«Как будто занимались в зале, только дома. Смеялись, путались и в итоге станцевали».</p><span class="small">[Имена], [месяц, год]</span></figcaption></figure>
+    </div>
+  </section>
+
+  <section class="section wrap">
+    <h2>Как это работает</h2>
+    <ol class="steps">
+      <li><span class="mark" aria-hidden="true">1</span><div><h3>Оформите заказ</h3><p>Имя, телефон и мессенджер. Без регистрации и паролей.</p></div></li>
+      <li><span class="mark" aria-hidden="true">2</span><div><h3>Оплатите</h3><p>Реквизиты для оплаты придут в мессенджер, который вы выбрали.</p></div></li>
+      <li><span class="mark" aria-hidden="true">3</span><div><h3>Получите урок</h3><p>Личная ссылка откроется на телефоне и на компьютере. Доступ бессрочный.</p></div></li>
+    </ol>
+  </section>
+
+  <section class="section wrap faq" id="faq">
+    <h2>Вопросы</h2>
+    <details><summary>Мы никогда не танцевали. Получится?</summary><p>Да. Уроки сделаны для тех, кто танцует впервые: подробный разбор и простые варианты поддержек.</p></details>
+    <details><summary>Как оплатить?</summary><p>После оформления заказа пришлем реквизиты в Telegram или WhatsApp. Ссылка на урок придет туда же после оплаты.</p></details>
+    <details><summary>Можно вернуть деньги?</summary><p>Да, пока вы не открыли урок.</p></details>
+    <details><summary>Нужна ли песня?</summary><p>Да, включаете ее сами. В уроке есть ссылка на трек и с какой секунды начинать.</p></details>
+  </section>
+</main>
+<div class="buybar" id="buybar" hidden><span><b id="barPrice"></b><span class="small" id="barSong"></span></span><button class="btn btn--gold" type="button" data-order>Оформить заказ</button></div>
+
+<dialog class="order" id="order" aria-labelledby="orderTitle">
+  <form class="order__form" id="orderForm" method="dialog" novalidate>
+    <div class="order__head"><h2 id="orderTitle">Оформление заказа</h2><button class="order__x" type="button" data-close aria-label="Закрыть"><svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 4l12 12M16 4L4 16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button></div>
+    <div class="order__sum"><img id="oCover" src="" alt="" width="64" height="80"><span><b id="oSong"></b><span class="small" id="oPkg"></span></span><b id="oPrice"></b></div>
+    <label class="fld"><span>Имя</span><input name="name" autocomplete="name" required><em>Напишите, как к вам обращаться</em></label>
+    <label class="fld"><span>Телефон</span><input name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="+7" required><em>Проверьте номер: нужно 11 цифр</em></label>
+    <fieldset class="fld"><legend>Куда прислать урок</legend>
+      <div class="opts"><label class="chip-r"><input type="radio" name="msg" value="telegram" checked><span>Telegram</span></label><label class="chip-r"><input type="radio" name="msg" value="whatsapp"><span>WhatsApp</span></label></div>
+    </fieldset>
+    <label class="fld"><span>Дата свадьбы <i>необязательно</i></span><input name="date" type="date"></label>
+    <label class="fld"><span>Комментарий <i>необязательно</i></span><textarea name="comment" rows="2"></textarea></label>
+    <label class="check"><input type="checkbox" name="agree" required><span>Соглашаюсь с <a href="#">офертой</a> и <a href="#">политикой обработки персональных данных</a></span></label>
+    <p class="order__err" id="agreeErr" hidden>Нужно согласие, чтобы оформить заказ</p>
+    <button class="btn btn--gold btn--block" type="submit" id="orderSubmit">Подтвердить заказ</button>
+  </form>
+  <div class="order__done" id="orderDone" hidden>
+    <span class="order__ok" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 28 28"><path d="M6 14.5l5 5L22 8.5" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+    <h2>Заказ №<span id="oNum">1047</span> оформлен</h2>
+    <p>Реквизиты для оплаты придут в <span id="oMsg">Telegram</span>. После оплаты туда же пришлем ссылку на урок.</p>
+    <button class="btn btn--ghost btn--block" type="button" data-close>Вернуться к танцу</button>
+  </div>
+</dialog>
+<footer class="foot is-dark">
+  <div class="foot__in">
+  <div class="foot__brand"><img src="assets/logo-na-temnom.svg" alt="WED DANCE" width="87" height="56">
+  <p>Готовые видеоуроки свадебного танца.</p></div>
+  <ul><li><a href="catalog.html">Каталог</a></li><li><a href="#">Офлайн в Ростове</a></li><li><a href="#">Telegram</a></li><li><a href="#">Оферта</a> · <a href="#">Политика ПДн</a></li></ul>
+  <p class="small">[Самозанятая, ИНН] · Ростов-на-Дону</p>
+  </div>
+</footer>
+<script src="assets/js/cards.js"></script>
+<script src="assets/js/dance.js"></script>
+<script src="assets/js/motion.js"></script>
+</body>
+</html>

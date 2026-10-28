@@ -1,0 +1,45 @@
+.cat-title { font-size: var(--step-head); margin-top: 16px; }
+.cat-title span { color: var(--muted); font-weight: 400; }
+.cat-sub { margin: 6px 0 20px; }
+.cat-tools { display: contents; } /* на телефоне строка фильтров липнет относительно всей колонки, а не блока поиска */
+.search { display: block; margin-bottom: 10px; }
+/* закреплена только строка «Фильтры / сортировка», поиск уезжает — экономим высоту экрана */
+.cat-row { position: sticky; top: 60px; z-index: 10; background: var(--bg); padding-block: 8px; }
+.search input { width: 100%; min-height: 48px; padding: 0 16px; border: 0; border-radius: var(--radius); background: var(--bg-soft); font: 400 var(--step-body)/1 var(--font); color: var(--ink); }
+.cat-row { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.sort__label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.sort select { min-height: 40px; border: 0; background: transparent; font: 500 1rem/1 var(--font); /* 16px: iOS не приближает */ color: var(--ink); padding: 0 4px; }
+.cat-grid { margin-top: 8px; }
+.empty { padding: 48px 0; display: grid; gap: 12px; justify-items: start; }
+
+.sheet { width: 100%; max-width: 100%; margin: auto 0 0; padding: 0; border: 0; border-radius: 20px 20px 0 0; max-height: 88svh; overscroll-behavior: contain; color: var(--ink); background: var(--bg); }
+.sheet::backdrop { background: rgb(15 13 11 / .55); }
+.sheet form { padding: 20px var(--margin) 0; }
+.sheet__head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+.sheet__close { width: 44px; height: 44px; border: 0; background: var(--bg-soft); border-radius: 50%; font-size: 1.5rem; line-height: 1; cursor: pointer; color: var(--ink); }
+.sheet fieldset { border: 0; margin: 0; padding: 14px 0; }
+.sheet legend { font-weight: 500; margin-bottom: 10px; padding: 0; }
+.opts { display: flex; flex-wrap: wrap; gap: 8px; }
+.sheet__foot { position: sticky; bottom: 0; display: grid; grid-template-columns: 1fr 2fr; gap: 10px; padding: 16px 0 calc(16px + env(safe-area-inset-bottom)); background: var(--bg); }
+
+/* ——— десктоп: фильтры всегда видны слева, применяются сразу ——— */
+@media (min-width: 1024px) {
+  .cat-title { margin-top: 48px; }
+  .cat-sub { margin-bottom: 40px; }
+  .cat-layout { display: grid; grid-template-columns: 248px minmax(0, 1fr); gap: 56px; align-items: start; }
+  .sheet { display: block; position: sticky; top: 100px; margin: 0; max-height: none; overflow: visible; border-radius: 0; background: transparent; z-index: auto; }
+  .sheet form { padding: 0; }
+  .sheet__head h2 { font-size: var(--step-lead); }
+  .sheet__close, #apply, #openFilters { display: none; }
+  .sheet fieldset { padding: 12px 0; }
+  .sheet legend { font-size: var(--step-small); color: var(--muted); }
+  .sheet__foot { position: static; display: block; padding: 8px 0 0; }
+  .sheet__foot .btn { min-height: 44px; padding: 0 18px; font-size: var(--step-small); }
+  .search { margin: 0; }
+  .cat-tools { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 24px; margin-bottom: 32px; }
+  .cat-row { position: static; padding: 0; }
+  .sort { display: inline-flex; align-items: center; gap: 8px; }
+  .sort__label { position: static; width: auto; height: auto; overflow: visible; clip: auto; font-size: var(--step-small); color: var(--muted); }
+  .cat-grid { grid-template-columns: repeat(3, 1fr); margin-top: 0; }
+}
+@media (min-width: 1440px) { .cat-grid { grid-template-columns: repeat(4, 1fr); } }

@@ -1,0 +1,42 @@
+/* Мотив «раз-два-три» (бриф §4). Вид: html[data-motif="digits|steps|line"]. */
+.count { display: inline-flex; align-items: center; gap: 10px; font: 700 1rem/1 var(--font); color: var(--motif-ink); }
+.count i { font-style: normal; }
+.count i + i::before { content: "·"; margin-right: 10px; color: currentColor; opacity: .6; }
+
+/* .level — сложность: 3 полоски, заполнены первые N; цвет по уровню: просто зеленый, средне оранжевый, сложнее красный */
+.level { --lv: #3E9A56; display: inline-flex; align-items: center; gap: 8px; font-size: var(--step-small); color: var(--muted); }
+.level[data-level="2"] { --lv: #E8892B; }
+.level[data-level="3"] { --lv: #D2433A; }
+.level__marks { display: inline-flex; gap: 3px; }
+.level__marks b { width: 14px; height: 6px; border-radius: 3px; font-size: 0; background: #DCD7D0; }
+.level[data-level="1"] b:nth-child(-n+1), .level[data-level="2"] b:nth-child(-n+2), .level[data-level="3"] b:nth-child(-n+3) { background: var(--lv); }
+
+/* .steps — «Как это работает»: маркер шага из мотива */
+.steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 28px; }
+.steps li { display: grid; grid-template-columns: 56px 1fr; gap: 16px; align-items: start; }
+.steps .mark { display: grid; place-items: center; width: 56px; height: 56px; border-radius: 50%; background: var(--gold); color: var(--ink); font: 700 1.5rem/1 var(--font); }
+.steps .mark span { font-size: .6em; margin-left: 1px; }
+html[data-motif="line"] .steps { gap: 0; }
+html[data-motif="line"] .steps li { padding-bottom: 28px; position: relative; }
+html[data-motif="line"] .steps li:not(:last-child)::after { content: ""; position: absolute; left: 27px; top: 60px; bottom: 4px; width: 2px; background: var(--gold); }
+.steps h3 { margin: 6px 0 6px; }
+
+/* .divider — разделитель-счет */
+.divider { display: flex; justify-content: center; gap: 14px; padding-block: 8px; color: var(--motif-ink); font: 700 1.125rem/1 var(--font); }
+html[data-motif="steps"] .divider { font-size: 0; }
+html[data-motif="steps"] .divider::before, html[data-motif="steps"] .divider::after { content: ""; width: 10px; height: 18px; border-radius: 50%; background: var(--gold); transform: rotate(-12deg); }
+html[data-motif="steps"] .divider::after { transform: rotate(12deg) translateY(-6px); }
+html[data-motif="line"] .divider { font-size: 0; height: 2px; padding: 0; margin-inline: 30%; background: var(--gold); }
+
+/* анимированный счет для первого экрана: цифры проступают по одной */
+.count-anim { display: inline-flex; gap: 18px; font: 700 clamp(3rem, 18vw, 6rem)/1 var(--font); color: var(--motif-ink); }
+.count-anim i { font-style: normal; opacity: 0; animation: beat 3s infinite; }
+.count-anim i:nth-child(2) { animation-delay: .5s; }
+.count-anim i:nth-child(3) { animation-delay: 1s; }
+@keyframes beat { 0%, 8% { opacity: 0; transform: translateY(8px); } 20%, 70% { opacity: 1; transform: none; } 100% { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .count-anim i { opacity: 1; } }
+@media (min-width: 1024px) {
+  .steps { grid-template-columns: repeat(3, 1fr); gap: var(--gap); }
+  .steps li { grid-template-columns: 1fr; gap: 20px; }
+  html[data-motif="line"] .steps li:not(:last-child)::after { left: 72px; right: 8px; top: 27px; bottom: auto; width: auto; height: 2px; }
+}

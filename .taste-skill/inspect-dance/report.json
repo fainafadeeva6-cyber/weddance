@@ -1,0 +1,2054 @@
+{
+ "url": "http://127.0.0.1:8311/dance.html",
+ "at": "2026-10-27T18:49:11.564Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    0.88,
+    0.32,
+    0.3,
+    0.69,
+    0.69
+   ],
+   "motion": {
+    "elements": 17,
+    "css": 0,
+    "transitions": 17,
+    "scripted": 0,
+    "videos": 1,
+    "playingVideos": 1
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 3601,
+     "screens": 4,
+     "words": 242,
+     "img": 4,
+     "video": 1,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 8,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 1,
+     "videoCount": 1,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": null,
+    "h1": {
+     "text": "Загадай любовь",
+     "words": 2,
+     "lines": 1,
+     "size": 30,
+     "font": "Onest"
+    },
+    "headings": [
+     {
+      "text": "Загадай любовь",
+      "words": 2,
+      "chars": 14,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Onest",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.97,
+      "top": 976,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Что входит",
+      "words": 2,
+      "chars": 10,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Onest",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.97,
+      "top": 1365,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Подойдет вам, если",
+      "words": 3,
+      "chars": 18,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Onest",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.97,
+      "top": 1740,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Сколько времени займет",
+      "words": 3,
+      "chars": 22,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Onest",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 2025,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Отзывы об этом танце",
+      "words": 4,
+      "chars": 20,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Onest",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.97,
+      "top": 2190,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Как это работает",
+      "words": 3,
+      "chars": 16,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Onest",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.97,
+      "top": 2536,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Вопросы",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Onest",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.97,
+      "top": 2897,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 7,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Onest",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      12,
+      13,
+      14,
+      16,
+      17,
+      20,
+      24,
+      30
+     ],
+     "sizeCount": 8,
+     "notLoaded": [],
+     "body": {
+      "font": "Onest",
+      "size": 17,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 16.4
+     },
+     "measureChars": 159,
+     "max": {
+      "size": 30,
+      "vw": 2.1,
+      "font": "Onest",
+      "text": "Загадай любовь"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#0f0d0b",
+       "top": 60,
+       "hsl": {
+        "h": 30,
+        "s": 0.15,
+        "l": 0.05
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#16130f",
+       "share": 0.71
+      },
+      {
+       "color": "#5c554c",
+       "share": 0.23
+      },
+      {
+       "color": "#c9c1b4",
+       "share": 0.02
+      },
+      {
+       "color": "#f2f0ec",
+       "share": 0.02
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#d4a92a",
+      "hsl": {
+       "h": 45,
+       "s": 0.67,
+       "l": 0.5
+      },
+      "fg": "#16130f"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 1,
+     "inHero": 1,
+     "radius": 14,
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Купить"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 1,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 1,
+     "boxRadius": 14,
+     "squareMedia": 1,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "video",
+      "ratio": 0.93
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 60,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "onest"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 3601,
+    "margins": {
+     "left": 20,
+     "right": 36
+    },
+    "sections": [
+     {
+      "sel": "div.d-media",
+      "tag": "div",
+      "top": 60,
+      "height": 900,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.wrap.d-head",
+      "tag": "section",
+      "top": 960,
+      "height": 333,
+      "words": 42,
+      "media": 0,
+      "middle": 569,
+      "heading": {
+       "text": "Загадай любовь",
+       "size": 30,
+       "tag": "h1"
+      },
+      "left": 20,
+      "right": 36,
+      "textLeft": 20,
+      "textRight": 36,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section.wrap",
+      "tag": "section",
+      "top": 1293,
+      "height": 359,
+      "words": 47,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Что входит",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 830,
+      "textLeft": 20,
+      "textRight": 830,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section.wrap",
+      "tag": "section",
+      "top": 1652,
+      "height": 252,
+      "words": 25,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 40,
+      "right": 962,
+      "textLeft": 40,
+      "textRight": 962,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section.wrap",
+      "tag": "section",
+      "top": 1903,
+      "height": 215,
+      "words": 23,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Сколько времени займет",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 44,
+      "right": 505,
+      "textLeft": 44,
+      "textRight": 505,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section.wrap",
+      "tag": "section",
+      "top": 2118,
+      "height": 346,
+      "words": 38,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Отзывы об этом танце",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 567,
+      "textLeft": 20,
+      "textRight": 567,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section.wrap",
+      "tag": "section",
+      "top": 2464,
+      "height": 361,
+      "words": 31,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Как это работает",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 942,
+      "textLeft": 20,
+      "textRight": 942,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section.wrap",
+      "tag": "section",
+      "top": 2825,
+      "height": 314,
+      "words": 26,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Вопросы",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 1003,
+      "textLeft": 20,
+      "textRight": 1003,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.foot.is-dark",
+      "tag": "footer",
+      "top": 3211,
+      "height": 314,
+      "words": 9,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 1165,
+      "textLeft": 20,
+      "textRight": 1165,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Загадай любовь",
+      "size": 30,
+      "top": 976,
+      "firstScreen": false
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 6
+     },
+     {
+      "x": 38,
+      "n": 3
+     }
+    ],
+    "leftBlocks": 9,
+    "bodySize": 17,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 4,
+   "filled": [
+    0.66,
+    0.4,
+    0.53,
+    0.68
+   ],
+   "motion": {
+    "elements": 18,
+    "css": 0,
+    "transitions": 18,
+    "scripted": 0,
+    "videos": 1,
+    "playingVideos": 1
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 3130,
+     "screens": 3.1,
+     "words": 236,
+     "img": 4,
+     "video": 1,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 8,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 1,
+     "videoCount": 1,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Загадай любовь",
+     "words": 2,
+     "chars": 14,
+     "lines": 1,
+     "size": 30,
+     "vw": 3.9,
+     "font": "Onest",
+     "weight": 700,
+     "tracking": -0.02,
+     "leading": 1.12,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.95,
+     "top": 556,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Загадай любовь",
+     "words": 2,
+     "lines": 1,
+     "size": 30,
+     "font": "Onest"
+    },
+    "headings": [
+     {
+      "text": "Загадай любовь",
+      "words": 2,
+      "chars": 14,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Onest",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 556,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Что входит",
+      "words": 2,
+      "chars": 10,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Onest",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 945,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Подойдет вам, если",
+      "words": 3,
+      "chars": 18,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Onest",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 1304,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Сколько времени займет",
+      "words": 3,
+      "chars": 22,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Onest",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 1605,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Отзывы об этом танце",
+      "words": 4,
+      "chars": 20,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Onest",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 1796,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Как это работает",
+      "words": 3,
+      "chars": 16,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Onest",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 2141,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Вопросы",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Onest",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 2503,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 7,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Onest",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      12,
+      13,
+      14,
+      16,
+      17,
+      20,
+      24,
+      30
+     ],
+     "sizeCount": 8,
+     "notLoaded": [],
+     "body": {
+      "font": "Onest",
+      "size": 17,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 16.4
+     },
+     "measureChars": 80,
+     "max": {
+      "size": 30,
+      "vw": 3.9,
+      "font": "Onest",
+      "text": "Загадай любовь"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#0f0d0b",
+       "top": 60,
+       "hsl": {
+        "h": 30,
+        "s": 0.15,
+        "l": 0.05
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#16130f",
+       "share": 0.72
+      },
+      {
+       "color": "#5c554c",
+       "share": 0.23
+      },
+      {
+       "color": "#c9c1b4",
+       "share": 0.02
+      },
+      {
+       "color": "#f2f0ec",
+       "share": 0.02
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#d4a92a",
+      "hsl": {
+       "h": 45,
+       "s": 0.67,
+       "l": 0.5
+      },
+      "fg": "#16130f"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 1,
+     "inHero": 1,
+     "radius": 14,
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Купить урок"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 1,
+     "boxRadius": 14,
+     "squareMedia": 1,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "video",
+      "ratio": 0.47
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 60,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "onest"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 3130,
+    "margins": {
+     "left": 20,
+     "right": 36
+    },
+    "sections": [
+     {
+      "sel": "div.d-media",
+      "tag": "div",
+      "top": 60,
+      "height": 480,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.wrap.d-head",
+      "tag": "section",
+      "top": 540,
+      "height": 333,
+      "words": 42,
+      "media": 0,
+      "middle": 78,
+      "heading": {
+       "text": "Загадай любовь",
+       "size": 30,
+       "tag": "h1"
+      },
+      "left": 20,
+      "right": 36,
+      "textLeft": 20,
+      "textRight": 36,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section.wrap",
+      "tag": "section",
+      "top": 873,
+      "height": 359,
+      "words": 47,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Что входит",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 158,
+      "textLeft": 20,
+      "textRight": 158,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section.wrap",
+      "tag": "section",
+      "top": 1232,
+      "height": 252,
+      "words": 28,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Подойдет вам, если",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 290,
+      "textLeft": 20,
+      "textRight": 290,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section.wrap",
+      "tag": "section",
+      "top": 1483,
+      "height": 241,
+      "words": 23,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Сколько времени займет",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 44,
+      "right": 58,
+      "textLeft": 44,
+      "textRight": 58,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section.wrap",
+      "tag": "section",
+      "top": 1724,
+      "height": 346,
+      "words": 38,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Отзывы об этом танце",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 42,
+      "textLeft": 20,
+      "textRight": 42,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section.wrap",
+      "tag": "section",
+      "top": 2069,
+      "height": 361,
+      "words": 31,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Как это работает",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 270,
+      "textLeft": 20,
+      "textRight": 270,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section.wrap",
+      "tag": "section",
+      "top": 2431,
+      "height": 314,
+      "words": 26,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Вопросы",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 331,
+      "textLeft": 20,
+      "textRight": 331,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.foot.is-dark",
+      "tag": "footer",
+      "top": 2817,
+      "height": 314,
+      "words": 9,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 493,
+      "textLeft": 20,
+      "textRight": 493,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Загадай любовь",
+      "size": 30,
+      "top": 556,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 7
+     },
+     {
+      "x": 38,
+      "n": 3
+     }
+    ],
+    "leftBlocks": 10,
+    "bodySize": 17,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 4,
+   "filled": [
+    0.64,
+    0.67,
+    0.44,
+    0.71
+   ],
+   "motion": {
+    "elements": 18,
+    "css": 0,
+    "transitions": 18,
+    "scripted": 0,
+    "videos": 1,
+    "playingVideos": 1
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 3334,
+     "screens": 4,
+     "words": 236,
+     "img": 4,
+     "video": 1,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 8,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 1,
+     "videoCount": 1,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Загадай любовь",
+     "words": 2,
+     "chars": 14,
+     "lines": 1,
+     "size": 30,
+     "vw": 7.7,
+     "font": "Onest",
+     "weight": 700,
+     "tracking": -0.02,
+     "leading": 1.12,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 320,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Загадай любовь",
+     "words": 2,
+     "lines": 1,
+     "size": 30,
+     "font": "Onest"
+    },
+    "headings": [
+     {
+      "text": "Загадай любовь",
+      "words": 2,
+      "chars": 14,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Onest",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 320,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Что входит",
+      "words": 2,
+      "chars": 10,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Onest",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 785,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Подойдет вам, если",
+      "words": 3,
+      "chars": 18,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Onest",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1245,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Сколько времени займет",
+      "words": 3,
+      "chars": 22,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Onest",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 1572,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Отзывы об этом танце",
+      "words": 4,
+      "chars": 20,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Onest",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1848,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Как это работает",
+      "words": 3,
+      "chars": 16,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Onest",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2243,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "1",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Onest",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.14,
+      "top": 2296,
+      "tag": "span",
+      "kind": "statement"
+     },
+     {
+      "text": "2",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Onest",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.14,
+      "top": 2410,
+      "tag": "span",
+      "kind": "statement"
+     },
+     {
+      "text": "3",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Onest",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.14,
+      "top": 2523,
+      "tag": "span",
+      "kind": "statement"
+     },
+     {
+      "text": "Вопросы",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Onest",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2680,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 10,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 3,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Onest",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      12,
+      13,
+      14,
+      16,
+      17,
+      20,
+      24,
+      30
+     ],
+     "sizeCount": 8,
+     "notLoaded": [],
+     "body": {
+      "font": "Onest",
+      "size": 17,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 16.4
+     },
+     "measureChars": 36,
+     "max": {
+      "size": 30,
+      "vw": 7.7,
+      "font": "Onest",
+      "text": "Загадай любовь"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#0f0d0b",
+       "top": 3020,
+       "hsl": {
+        "h": 30,
+        "s": 0.15,
+        "l": 0.05
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#16130f",
+       "share": 0.72
+      },
+      {
+       "color": "#5c554c",
+       "share": 0.23
+      },
+      {
+       "color": "#c9c1b4",
+       "share": 0.02
+      },
+      {
+       "color": "#f2f0ec",
+       "share": 0.02
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#d4a92a",
+      "hsl": {
+       "h": 45,
+       "s": 0.67,
+       "l": 0.5
+      },
+      "fg": "#16130f"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 1,
+     "inHero": 1,
+     "radius": 14,
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Купить урок"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 2,
+     "boxRadius": 14,
+     "squareMedia": 1,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "video",
+      "ratio": 0.29
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 60,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "onest"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 3334,
+    "margins": {
+     "left": 20,
+     "right": 22
+    },
+    "sections": [
+     {
+      "sel": "div.d-media",
+      "tag": "div",
+      "top": 60,
+      "height": 244,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.wrap.d-head",
+      "tag": "section",
+      "top": 304,
+      "height": 409,
+      "words": 42,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Загадай любовь",
+       "size": 30,
+       "tag": "h1"
+      },
+      "left": 20,
+      "right": 29,
+      "textLeft": 20,
+      "textRight": 29,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section.wrap",
+      "tag": "section",
+      "top": 713,
+      "height": 461,
+      "words": 47,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Что входит",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 23,
+      "textLeft": 20,
+      "textRight": 23,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section.wrap",
+      "tag": "section",
+      "top": 1173,
+      "height": 277,
+      "words": 28,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Подойдет вам, если",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 22,
+      "textLeft": 20,
+      "textRight": 22,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section.wrap",
+      "tag": "section",
+      "top": 1450,
+      "height": 325,
+      "words": 23,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Сколько времени займет",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 44,
+      "right": 54,
+      "textLeft": 44,
+      "textRight": 54,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section.wrap",
+      "tag": "section",
+      "top": 1776,
+      "height": 395,
+      "words": 38,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Отзывы об этом танце",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 22,
+      "textLeft": 20,
+      "textRight": 22,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section.wrap",
+      "tag": "section",
+      "top": 2171,
+      "height": 438,
+      "words": 31,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Как это работает",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 29,
+      "textLeft": 20,
+      "textRight": 29,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section.wrap",
+      "tag": "section",
+      "top": 2608,
+      "height": 340,
+      "words": 26,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Вопросы",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 99,
+      "textLeft": 20,
+      "textRight": 99,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.foot.is-dark",
+      "tag": "footer",
+      "top": 3020,
+      "height": 314,
+      "words": 9,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 115,
+      "textLeft": 20,
+      "textRight": 115,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Загадай любовь",
+      "size": 30,
+      "top": 320,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 7
+     },
+     {
+      "x": 38,
+      "n": 3
+     }
+    ],
+    "leftBlocks": 10,
+    "bodySize": 17,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "palette-cream",
+   "width": 1440,
+   "message": "Yellow-cream background (text #f2f0ec).",
+   "fix": "Use the drawn palette. If you want warmth, take a low-chroma stone or bone, not a yellow cream.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "few-pictures",
+   "width": 1440,
+   "message": "Only 1 picture(s) on the page (1 photographs, footage or raster images, 0 interface fragments). Drawings in SVG do not count.",
+   "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+  },
+  {
+   "level": "WARN",
+   "id": "measure",
+   "width": 1440,
+   "message": "Longest paragraph runs about 159 characters per line.",
+   "fix": "Cap paragraphs at 45–75 characters (max-width: 60ch)."
+  },
+  {
+   "level": "WARN",
+   "id": "no-hero",
+   "width": 1440,
+   "message": "No headline found in the first viewport.",
+   "fix": "The first screen needs a clear focal statement or image."
+  },
+  {
+   "level": "WARN",
+   "id": "font-not-dealt",
+   "width": 1440,
+   "message": "The sheet dealt Switzer and Switzer, but the page renders Onest.",
+   "fix": "Load the dealt face (the link on the sheet) and put it first in font-family. A build that falls back to a default face lands on the default look."
+  },
+  {
+   "level": "WARN",
+   "id": "off-centre",
+   "width": 1440,
+   "message": "The margins differ: 20px on the left, 36px on the right, at 1440px.",
+   "fix": "Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page.",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "lopsided",
+   "width": 1440,
+   "message": "4 sections keep all their content on one side and leave 70% of the width empty: \"Что входит\" (right 830px empty); section.section.wrap (right 962px empty); \"Как это работает\" (right 942px empty); \"Вопросы\" (right 1003px empty)",
+   "fix": "Use the whole width the page has set up: put the section's picture, its second column, its list or its figure in the empty half, or set the text larger across the grid. Empty space must be placed, with something on each side of it."
+  },
+  {
+   "level": "FAIL",
+   "id": "no-title",
+   "width": 1440,
+   "message": "The h1 (\"Загадай любовь\") is not on the first screen (it starts 976px down).",
+   "fix": "The title belongs on the first screen, where a visitor decides whether to stay."
+  },
+  {
+   "level": "WARN",
+   "id": "lopsided",
+   "width": 768,
+   "message": "A section keeps its content on one side and leaves 331px of the width empty: \"Вопросы\".",
+   "fix": "Fill the other side with what the section has (its picture, a second column, the figure), or defend the void in one sentence."
+  },
+  {
+   "level": "WARN",
+   "id": "small-title",
+   "width": 768,
+   "message": "The h1 is 30px (\"Загадай любовь\").",
+   "fix": "Set the title at display size, or make the large text of the first screen the h1."
+  },
+  {
+   "level": "WARN",
+   "id": "name-only-title",
+   "width": 768,
+   "message": "The h1 is a bare name (\"Загадай любовь\") and nothing else on the first screen says what this is.",
+   "fix": "Keep the name if it leads, and give the line under it (18px or more) the plain words: what it is, for whom, where or when. In the study of 97 Sites of the Day, first screens that named nothing lost usability and content points.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "covered-text",
+   "width": 390,
+   "message": "Large text lies under another element at some scroll position: \"Сколько времени займет\" (screen 2, 50% hidden)",
+   "fix": "Nothing may sit on top of a headline or statement. Move the picture, shorten the pinned run, or raise the text above it (z-index) and give it a ground."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/home/f_fadeeva/projects/weddance-site/.taste-skill/inspect-dance/desktop-fold.jpg",
+   "pages": [
+    "/home/f_fadeeva/projects/weddance-site/.taste-skill/inspect-dance/desktop-page-01.jpg",
+    "/home/f_fadeeva/projects/weddance-site/.taste-skill/inspect-dance/desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/home/f_fadeeva/projects/weddance-site/.taste-skill/inspect-dance/tablet-fold.jpg",
+   "pages": [
+    "/home/f_fadeeva/projects/weddance-site/.taste-skill/inspect-dance/tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/home/f_fadeeva/projects/weddance-site/.taste-skill/inspect-dance/mobile-fold.jpg",
+   "pages": [
+    "/home/f_fadeeva/projects/weddance-site/.taste-skill/inspect-dance/mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

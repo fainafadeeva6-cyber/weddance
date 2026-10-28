@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Мотив и компоненты — WED DANCE</title>
+<script src="assets/js/variants.js"></script>
+<link rel="stylesheet" href="assets/css/tokens.css">
+<link rel="stylesheet" href="assets/css/base.css">
+<link rel="stylesheet" href="assets/css/motif.css">
+<style>
+  .demo { padding: 32px var(--margin); display: grid; gap: 20px; }
+  .row { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+</style>
+</head>
+<body>
+<header class="top"><img src="assets/logo.svg" alt="WED DANCE" width="62" height="40"><a class="menu" href="index.html">Главная</a></header>
+<main>
+  <section class="demo">
+    <h1>Мотив «раз-два-три»</h1>
+    <p class="small">Вид мотива: <a href="?motif=digits">цифры</a> · <a href="?motif=steps">шаги</a> · <a href="?motif=line">линия</a>. Акцент: <a href="?accent=night">ночное небо</a> · <a href="?accent=terra">терракотовый</a>.</p>
+    <div class="divider" aria-hidden="true">1 2 3</div>
+    <h2>Кнопки</h2>
+    <div class="row"><a class="btn btn--gold" href="#">Выбрать танец</a><a class="btn btn--accent" href="#">Купить урок</a><a class="btn btn--ghost" href="#">Весь каталог</a></div>
+    <h2>Сложность</h2>
+    <div class="row" style="flex-direction:column;align-items:flex-start">
+      <span class="level" data-level="1"><span class="level__marks" aria-hidden="true"><b>1</b><b>2</b><b>3</b></span>Очень просто</span>
+      <span class="level" data-level="2"><span class="level__marks" aria-hidden="true"><b>1</b><b>2</b><b>3</b></span>Средне</span>
+      <span class="level" data-level="3"><span class="level__marks" aria-hidden="true"><b>1</b><b>2</b><b>3</b></span>Сложнее</span>
+    </div>
+    <h2>Как это работает</h2>
+    <ol class="steps">
+      <li><span class="mark" aria-hidden="true">1</span><div><h3>Выберите песню</h3><p>16 готовых танцев: вальсы, медленные, современные.</p></div></li>
+      <li><span class="mark" aria-hidden="true">2</span><div><h3>Получите урок сразу</h3><p>Ссылка придет на почту сразу после оплаты.</p></div></li>
+      <li><span class="mark" aria-hidden="true">3</span><div><h3>Разучите в своем темпе</h3><p>Танец разложен на короткие части под счет.</p></div></li>
+    </ol>
+    <h2>Бейджи и фильтры</h2>
+    <div class="row"><span class="badge">Хит</span><span class="badge">Новинка</span><button class="chip" aria-pressed="true">Романтично</button><button class="chip" aria-pressed="false">Энергично</button></div>
+  </section>
+  <section class="demo is-dark">
+    <h2>На темном</h2>
+    <div class="count" aria-hidden="true"><i>1</i><i>2</i><i>3</i></div>
+    <div class="count-anim" aria-hidden="true"><i>1</i><i>2</i><i>3</i></div>
+    <div class="divider" aria-hidden="true">1 2 3</div>
+    <a class="btn btn--gold" href="#">Выбрать танец</a>
+  </section>
+</main>
+</body>
+</html>

@@ -1,0 +1,1134 @@
+{
+ "url": "http://127.0.0.1:8311/catalog.html",
+ "at": "2026-10-27T18:48:41.789Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 10,
+   "filled": [
+    0.69,
+    0.76,
+    0.78,
+    0.78,
+    0.76,
+    0.81,
+    0.83,
+    0.76,
+    0.68,
+    0.7
+   ],
+   "motion": {
+    "elements": 16,
+    "css": 0,
+    "transitions": 16,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 8394,
+     "screens": 9.3,
+     "words": 265,
+     "img": 18,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 0,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 16,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "cover-kovalski-my-eho.jpg",
+      "cover-klava-koka-kak-ya-lyublyu.jpg",
+      "cover-lazarev-zagaday-lyubov.jpg",
+      "cover-gio-pika-mir.jpg",
+      "cover-german-leshchenko-my-eho.jpg",
+      "cover-trofimov-vtoraya-vesna.jpg",
+      "cover-navai-lyubov-son.jpg",
+      "cover-westlife-nothings-gonna-change.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Готовые танцы 16",
+     "words": 3,
+     "chars": 16,
+     "lines": 1,
+     "size": 30,
+     "vw": 2.1,
+     "font": "Onest",
+     "weight": 700,
+     "tracking": -0.02,
+     "leading": 1.12,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.97,
+     "top": 76,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Готовые танцы 16",
+     "words": 3,
+     "lines": 1,
+     "size": 30,
+     "font": "Onest"
+    },
+    "headings": [
+     {
+      "text": "Готовые танцы 16",
+      "words": 3,
+      "chars": 16,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Onest",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.97,
+      "top": 76,
+      "tag": "h1",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 1,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Onest",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      12,
+      13,
+      14,
+      17,
+      30
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": null,
+     "measureChars": null,
+     "max": {
+      "size": 30,
+      "vw": 2.1,
+      "font": "Onest",
+      "text": "Готовые танцы"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#0f0d0b",
+       "top": 8081,
+       "hsl": {
+        "h": 30,
+        "s": 0.15,
+        "l": 0.05
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#5c554c",
+       "share": 0.52
+      },
+      {
+       "color": "#16130f",
+       "share": 0.41
+      },
+      {
+       "color": "#c9c1b4",
+       "share": 0.04
+      },
+      {
+       "color": "#f2f0ec",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#f3f1ee",
+      "hsl": {
+       "h": 36,
+       "s": 0.17,
+       "l": 0.94
+      },
+      "fg": "#16130f"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 1,
+     "inHero": 1,
+     "radius": "pill",
+     "height": 40,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Фильтры"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 16,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.33
+     },
+     {
+      "type": "img",
+      "ratio": 0.33
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 60,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "onest"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 8394,
+    "margins": {
+     "left": 20,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "main.wrap",
+      "tag": "main",
+      "top": 76,
+      "height": 7933,
+      "words": 191,
+      "media": 16,
+      "middle": 12,
+      "heading": null,
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.foot.is-dark",
+      "tag": "footer",
+      "top": 8081,
+      "height": 314,
+      "words": 9,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 1165,
+      "textLeft": 20,
+      "textRight": 1165,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Готовые танцы 16",
+      "size": 30,
+      "top": 76,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 1
+     },
+     {
+      "x": 241,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 2,
+    "bodySize": 14,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    0.76,
+    0.82,
+    0.76,
+    0.81,
+    0.81
+   ],
+   "motion": {
+    "elements": 16,
+    "css": 0,
+    "transitions": 16,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 5034,
+     "screens": 4.9,
+     "words": 265,
+     "img": 18,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 0,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 16,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "cover-kovalski-my-eho.jpg",
+      "cover-klava-koka-kak-ya-lyublyu.jpg",
+      "cover-lazarev-zagaday-lyubov.jpg",
+      "cover-gio-pika-mir.jpg",
+      "cover-german-leshchenko-my-eho.jpg",
+      "cover-trofimov-vtoraya-vesna.jpg",
+      "cover-navai-lyubov-son.jpg",
+      "cover-westlife-nothings-gonna-change.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Готовые танцы 16",
+     "words": 3,
+     "chars": 16,
+     "lines": 1,
+     "size": 30,
+     "vw": 3.9,
+     "font": "Onest",
+     "weight": 700,
+     "tracking": -0.02,
+     "leading": 1.12,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.95,
+     "top": 76,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Готовые танцы 16",
+     "words": 3,
+     "lines": 1,
+     "size": 30,
+     "font": "Onest"
+    },
+    "headings": [
+     {
+      "text": "Готовые танцы 16",
+      "words": 3,
+      "chars": 16,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Onest",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 76,
+      "tag": "h1",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 1,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Onest",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      12,
+      13,
+      14,
+      17,
+      30
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": null,
+     "measureChars": null,
+     "max": {
+      "size": 30,
+      "vw": 3.9,
+      "font": "Onest",
+      "text": "Готовые танцы"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#0f0d0b",
+       "top": 4721,
+       "hsl": {
+        "h": 30,
+        "s": 0.15,
+        "l": 0.05
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#5c554c",
+       "share": 0.52
+      },
+      {
+       "color": "#16130f",
+       "share": 0.41
+      },
+      {
+       "color": "#c9c1b4",
+       "share": 0.04
+      },
+      {
+       "color": "#f2f0ec",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#f3f1ee",
+      "hsl": {
+       "h": 36,
+       "s": 0.17,
+       "l": 0.94
+      },
+      "fg": "#16130f"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 1,
+     "inHero": 1,
+     "radius": "pill",
+     "height": 40,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Фильтры"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 16,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.2
+     },
+     {
+      "type": "img",
+      "ratio": 0.2
+     },
+     {
+      "type": "img",
+      "ratio": 0.09
+     },
+     {
+      "type": "img",
+      "ratio": 0.09
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 60,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "onest"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 5034,
+    "margins": {
+     "left": 20,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "main.wrap",
+      "tag": "main",
+      "top": 76,
+      "height": 4573,
+      "words": 191,
+      "media": 16,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.foot.is-dark",
+      "tag": "footer",
+      "top": 4721,
+      "height": 314,
+      "words": 9,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 493,
+      "textLeft": 20,
+      "textRight": 493,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Готовые танцы 16",
+      "size": 30,
+      "top": 76,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 1
+     },
+     {
+      "x": 241,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 2,
+    "bodySize": 14,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    0.71,
+    0.76,
+    0.62,
+    0.79,
+    0.79
+   ],
+   "motion": {
+    "elements": 16,
+    "css": 0,
+    "transitions": 16,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 3411,
+     "screens": 4,
+     "words": 265,
+     "img": 18,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 0,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 16,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "cover-kovalski-my-eho.jpg",
+      "cover-klava-koka-kak-ya-lyublyu.jpg",
+      "cover-lazarev-zagaday-lyubov.jpg",
+      "cover-gio-pika-mir.jpg",
+      "cover-german-leshchenko-my-eho.jpg",
+      "cover-trofimov-vtoraya-vesna.jpg",
+      "cover-navai-lyubov-son.jpg",
+      "cover-westlife-nothings-gonna-change.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Готовые танцы 16",
+     "words": 3,
+     "chars": 16,
+     "lines": 1,
+     "size": 30,
+     "vw": 7.7,
+     "font": "Onest",
+     "weight": 700,
+     "tracking": -0.02,
+     "leading": 1.12,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 76,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Готовые танцы 16",
+     "words": 3,
+     "lines": 1,
+     "size": 30,
+     "font": "Onest"
+    },
+    "headings": [
+     {
+      "text": "Готовые танцы 16",
+      "words": 3,
+      "chars": 16,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Onest",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 76,
+      "tag": "h1",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 1,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Onest",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      12,
+      13,
+      14,
+      17,
+      30
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": null,
+     "measureChars": null,
+     "max": {
+      "size": 30,
+      "vw": 7.7,
+      "font": "Onest",
+      "text": "Готовые танцы"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#0f0d0b",
+       "top": 3097,
+       "hsl": {
+        "h": 30,
+        "s": 0.15,
+        "l": 0.05
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#5c554c",
+       "share": 0.52
+      },
+      {
+       "color": "#16130f",
+       "share": 0.41
+      },
+      {
+       "color": "#c9c1b4",
+       "share": 0.04
+      },
+      {
+       "color": "#f2f0ec",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#f3f1ee",
+      "hsl": {
+       "h": 36,
+       "s": 0.17,
+       "l": 0.94
+      },
+      "fg": "#16130f"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 1,
+     "inHero": 1,
+     "radius": "pill",
+     "height": 40,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Фильтры"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.11
+     },
+     {
+      "type": "img",
+      "ratio": 0.11
+     },
+     {
+      "type": "img",
+      "ratio": 0.11
+     },
+     {
+      "type": "img",
+      "ratio": 0.11
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 60,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "onest"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 3411,
+    "margins": {
+     "left": 20,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "main.wrap",
+      "tag": "main",
+      "top": 76,
+      "height": 2949,
+      "words": 191,
+      "media": 16,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 31,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.foot.is-dark",
+      "tag": "footer",
+      "top": 3097,
+      "height": 314,
+      "words": 9,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 115,
+      "textLeft": 20,
+      "textRight": 115,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Готовые танцы 16",
+      "size": 30,
+      "top": 76,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 1
+     },
+     {
+      "x": 241,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 2,
+    "bodySize": 14,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "palette-cream",
+   "width": 1440,
+   "message": "Yellow-cream background (button #f3f1ee, text #f2f0ec).",
+   "fix": "Use the drawn palette. If you want warmth, take a low-chroma stone or bone, not a yellow cream.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "font-not-dealt",
+   "width": 1440,
+   "message": "The sheet dealt Switzer and Switzer, but the page renders Onest.",
+   "fix": "Load the dealt face (the link on the sheet) and put it first in font-family. A build that falls back to a default face lands on the default look."
+  },
+  {
+   "level": "WARN",
+   "id": "small-title",
+   "width": 1440,
+   "message": "The h1 is 30px (\"Готовые танцы 16\").",
+   "fix": "Set the title at display size, or make the large text of the first screen the h1.",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "name-only-title",
+   "width": 1440,
+   "message": "The h1 is a bare name (\"Готовые танцы 16\") and nothing else on the first screen says what this is.",
+   "fix": "Keep the name if it leads, and give the line under it (18px or more) the plain words: what it is, for whom, where or when. In the study of 97 Sites of the Day, first screens that named nothing lost usability and content points.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "focal-point",
+   "width": 768,
+   "message": "The first screen has no dominant element: the largest type is 30px (3.9vw) and no single picture holds a third of the viewport.",
+   "fix": "Make one thing lead: the headline at display size, or one large picture. A grid of many small pictures is not one thing; in blind tests jurors marked a first screen without a headline down every time. On the strongest studied sites the largest type has a median of 8.4vw."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/home/f_fadeeva/projects/weddance-site/.taste-skill/inspect-catalog/desktop-fold.jpg",
+   "pages": [
+    "/home/f_fadeeva/projects/weddance-site/.taste-skill/inspect-catalog/desktop-page-01.jpg",
+    "/home/f_fadeeva/projects/weddance-site/.taste-skill/inspect-catalog/desktop-page-02.jpg",
+    "/home/f_fadeeva/projects/weddance-site/.taste-skill/inspect-catalog/desktop-page-03.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/home/f_fadeeva/projects/weddance-site/.taste-skill/inspect-catalog/tablet-fold.jpg",
+   "pages": [
+    "/home/f_fadeeva/projects/weddance-site/.taste-skill/inspect-catalog/tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/home/f_fadeeva/projects/weddance-site/.taste-skill/inspect-catalog/mobile-fold.jpg",
+   "pages": [
+    "/home/f_fadeeva/projects/weddance-site/.taste-skill/inspect-catalog/mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}
